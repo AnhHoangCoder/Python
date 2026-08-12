@@ -1,0 +1,38 @@
+# Cho một phép toán có dạng a + b = c với a,b,c chỉ là các số nguyên dương có một chữ số.
+
+# Hãy kiểm tra xem phép toán đó có đúng hay không.
+
+# Input
+
+# Chỉ có một dòng ghi ra phép toán (gồm đúng 9 ký tự)
+
+# Ouput
+
+# Ghi ra YES nếu phép toán đó đúng. Ghi ra NO nếu sai.
+
+# Ví dụ
+
+# Test 1
+
+# Test 2
+
+# Input
+
+# 1 + 2 = 3
+
+# Output
+
+# YES
+
+# Input
+
+
+# 2 + 2 = 5
+
+# Output
+
+# NO
+
+a, _, b, _, c = input().split()
+a, b , c = map(int,(a, b, c))
+print("YES" if a + b == c else "NO")

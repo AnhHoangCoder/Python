@@ -32,7 +32,7 @@
 # 1
 
 #Bài này đáng nhẽ ra len(n) == 1 thì cnt = 0 nhưng đề bài bảo éo
-
+#Lưu ý dấu âm
 n = input()
 
 def step(s):

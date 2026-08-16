@@ -31,10 +31,16 @@
 	
 # 1
 
-n = input().strip().lstrip('-')
+#Bài này đáng nhẽ ra len(n) == 1 thì cnt = 0 nhưng đề bài bảo éo
 
-cnt = 0
-while len(n) > 1:
-    n = str(sum(map(int, n)))
-    cnt += 1
-print(cnt)
+n = input()
+
+def step(s):
+    if len(s) == 1:
+        return 0
+
+    sum = 0
+    for i in s: sum += ord(i) - ord('0')
+    return 1 + step(str(sum))
+
+print(1 if len(n) <= 1 else step(n))

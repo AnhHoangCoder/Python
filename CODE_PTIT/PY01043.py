@@ -38,6 +38,7 @@
 import sys
 
 def main():
+    #Sinh tung so db
     non_zero_even = [2, 4, 6, 8]
     even_digits = [0, 2, 4, 6, 8]
 

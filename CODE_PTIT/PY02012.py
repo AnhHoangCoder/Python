@@ -30,7 +30,7 @@
 
 import sys
 
-def main():
+def main(): 
     data = sys.stdin.read().split()
     n = int(data[0])
     a = list(map(int, data[1:n + 1]))
@@ -56,7 +56,6 @@ def main():
         res[pos] = val
     
     print(*res)
-
 
 if __name__ == "__main__":
     main()

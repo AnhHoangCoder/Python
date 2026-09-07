@@ -66,7 +66,6 @@ def solve_nLogn(a, n):
             best_value = v
     return best_cost, best_value
      
-
 def main():
     n = int(input())
     a = list(map(int, input().split()))

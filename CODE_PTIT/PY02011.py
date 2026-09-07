@@ -42,6 +42,7 @@ import bisect
 #             best_cost, best_value = cost, v
 #     return best_cost, best_value
 
+
 def solve_nLogn(a, n):
     sorted_a = sorted(a)
 

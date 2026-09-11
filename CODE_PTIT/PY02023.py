@@ -49,7 +49,7 @@ def main():
 
         parts = [(x, sum_number(x)) for x in a]
         ans = sorted(parts, key = lambda x: (x[1], x[0]))
-        print(*[x for x, s in ans])
+        print(*[x for x, _ in ans])
 
 if __name__ == "__main__":
     main()

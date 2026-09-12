@@ -62,10 +62,7 @@ def main():
     for key, value in zip(idxPr, pr):
         a[key] = value
 
-    res = []
-    for i in range(n):
-        res.append(str(a[i]))
-    print(" ".join(res))
+    print(" ".join(map(str, a)))
 
 if __name__ == "__main__":
     main()

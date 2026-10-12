@@ -11,6 +11,7 @@ class Student:
     def __str__(self):
         return f"{self.name} {self.date} {self.total:.1f}"
 
+    
 def main():
     name = input().strip()
     date = input().strip()

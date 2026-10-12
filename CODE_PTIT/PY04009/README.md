@@ -1,0 +1,31 @@
+Khai báo lớp Số phức với hai thuộc tính là phần thực và phần ảo.
+
+Viết chương trình thực hiện nhập hai số phức A, B và thực hiện các thao tác tính toán trên số phức
+
+C = (A + B) x A
+D = (A + B)2
+Input:
+
+Dòng đầu tiên là số bộ test T (T <= 100)
+
+T dòng tiếp theo mỗi dòng gồm 4 số lần lượt là a, b, c, d, với -102 < a, b, c, d < 102.
+
+Output:
+
+Kết quả của hai phép tính theo định dạng trong ví dụ
+
+Ví dụ
+
+Input
+
+Output
+
+3
+1 2 3 4
+2 3 4 5
+1 -2 5 -6
+
+	
+-8 + 14i, -20 + 48i
+-12 + 34i, -28 + 96i
+-10 - 20i, -28 - 96i

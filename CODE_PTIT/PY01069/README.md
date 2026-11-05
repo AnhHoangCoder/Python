@@ -1,0 +1,76 @@
+Chúng ta đều biết chỉ có 4 chữ số nguyên tố là 2, 3, 5, 7. Hãy liệt kê tất cả các số có ít nhất 4 chữ số nhưng không quá N chữ số và thỏa mãn tất cả các điều kiện sau:
+
+Chỉ có các chữ số 2, 3, 5, 7
+Có đầy đủ 4 chữ số 2, 3, 5, 7
+Không phải là số chẵn.
+Input
+
+Chỉ có 1 dòng ghi số N (3 < N < 10)
+
+Output
+
+Ghi ra lần lượt các số thỏa mãn theo thứ tự tăng dần, mỗi số trên một dòng
+
+Ví dụ
+
+
+
+Input
+
+Output
+
+4
+
+	
+2357
+
+
+2375
+
+
+2537
+
+
+2573
+
+
+2735
+
+
+2753
+
+
+3257
+
+
+3275
+
+
+3527
+
+
+3725
+
+
+5237
+
+
+5273
+
+
+5327
+
+
+5723
+
+
+7235
+
+
+7253
+
+
+7325
+
+
+7523
